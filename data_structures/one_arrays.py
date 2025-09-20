@@ -1,5 +1,3 @@
-import numpy as nppip
-
 # 1. LISTEN (LISTS)
 # Listen sind die grundlegenden Datenstrukturen in Python.
 my_list = [1, 2, 3, 4, 5]
@@ -22,7 +20,7 @@ for item in my_list:
     print(item)
 
 # 2. ARRAYS (array Modul)
-import array
+import array  # <- fehlt in deinem Code
 
 # Arrays haben einen festen Datentyp
 my_array = array.array('i', [1, 2, 3, 4, 5])
